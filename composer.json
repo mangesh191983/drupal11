@@ -1,5 +1,5 @@
 {
-  "name": "drupal/drupal11-project",
+  "name": "mangesh/drupal11-project",
   "description": "Drupal 11 project template",
   "type": "project",
   "require": {
@@ -9,21 +9,11 @@
     "drupal/drush": "^12.4"
   },
   "extra": {
-    "composer-exit-on-patch-failure": true,
-    "enable-patching": true,
     "drupal-scaffold": {
       "locations": {
         "web-root": "web/"
       }
     }
-  },
-  "scripts": {
-    "post-install-cmd": [
-      "Drupal\\Core\\Composer\\Composer::ensureHtaccess"
-    ],
-    "post-update-cmd": [
-      "Drupal\\Core\\Composer\\Composer::ensureHtaccess"
-    ]
   },
   "minimum-stability": "stable",
   "prefer-stable": true
