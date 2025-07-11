@@ -5,7 +5,7 @@ services:
     build:
       context: .devcontainer
     volumes:
-      - .:/var/www/html
+      - .:/var/www/html/drupal
     ports:
       - "80:80"
     depends_on:

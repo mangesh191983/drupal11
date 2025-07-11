@@ -1,6 +1,0 @@
-/vendor/
-/web/sites/default/files/
-/web/sites/default/settings.php
-/.idea/
-/node_modules/
-/.env

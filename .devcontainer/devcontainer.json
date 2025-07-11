@@ -5,7 +5,7 @@
   },
   "dockerComposeFile": "../docker-compose.yml",
   "service": "web",
-  "workspaceFolder": "/var/www/html",
+  "workspaceFolder": "/var/www/html/drupal",
   "forwardPorts": [80, 3306],
   "postCreateCommand": "composer install",
   "customizations": {
